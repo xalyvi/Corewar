@@ -2,6 +2,7 @@
 # define COREWAR_H
 
 # include <stdlib.h>
+# include "corewar_errors.h"
 # include "utils.h"
 # include "champion_check.h"
 

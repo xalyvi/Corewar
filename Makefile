@@ -6,7 +6,8 @@ UTILS = utils/get_line.c \
 
 CHAMPION_CHECK = utils/champion_files/champion_checks.c
 
-COREWAR = parse_args_corewar.c
+COREWAR = parse_args_corewar.c \
+			error_handling.c
 
 TSRC = test_src/parse_args_corewar.c \
 	test_src/main.c

@@ -20,5 +20,7 @@ int				ft_strcmp(char const *s1, char const *s2);
 int				ft_strncmp(char const *s1, char const *s2, size_t n);
 char			*ft_strsub(char const *s, unsigned int start, size_t len);
 char			**ft_strsplit(char const *s, char c);
+void	        ft_putstr_fd(char const *str, int fd);
+void        	ft_putendl_fd(char const *str, int fd);
 
 #endif

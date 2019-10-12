@@ -95,3 +95,15 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	}
 	return (NULL);
 }
+
+void	ft_putstr_fd(char const *str, int fd)
+{
+	while (*str != '\0')
+		write(fd, str++, 1);
+}
+
+void	ft_putendl_fd(char const *str, int fd)
+{
+	ft_putstr_fd(str, fd);
+	write(fd, "\n", 1);
+}
